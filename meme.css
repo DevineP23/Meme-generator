@@ -1,0 +1,29 @@
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  
+  body {
+    margin: 10px;
+    background-color: wheat;
+  }
+  
+  #meme-canvas {
+    width: 300px;
+  }
+
+  .meme{
+    position: relative;
+    width: 400px;
+  }
+  
+  .meme p {
+    position: absolute;
+    left: 60%;
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+  }
+  .meme .bottom-text {
+    bottom: 10%;
+  }
